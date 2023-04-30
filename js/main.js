@@ -16,7 +16,6 @@ const data = {
   drawings: {},
 };
 
-const sketchPadContainer = document.getElementById("sketchPadContainer");
 const sketchPad = new SketchPad(sketchPadContainer);
 
 function start() {
