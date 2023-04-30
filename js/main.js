@@ -16,7 +16,7 @@ const data = {
   drawings: {},
 };
 
-const sketchPad = new SketchPad(sketchPadContainer);
+const sketchPad = new SketchPad(sketchPadContainer, screen.width);
 
 function start() {
   if (student.value == "") {
