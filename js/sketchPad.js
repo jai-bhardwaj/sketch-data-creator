@@ -1,7 +1,7 @@
 class SketchPad {
   constructor(container, width) {
     this.canvas = document.createElement("canvas");
-    this.canvas.width = Math.min(width-50,400);
+    this.canvas.width = Math.min(width - 10, 400);
     this.canvas.height = 400;
     this.canvas.style = `
          background-color:white;
